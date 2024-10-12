@@ -31,7 +31,7 @@ class TurmaPresencial extends Turma {
 let aluno = new Aluno('João', 'joao1234', '1234');
 
 let turmaOnline = new Turma('TURMA1', 7);
-console.log(`Status de aprovação do aluno na turma presencial: ${turmaOnline.aprovado()}`); 
+console.log(`Status de aprovação do aluno na turma online: ${turmaOnline.aprovado()}`); 
 
 let turmaPresencial = new TurmaPresencial('TURMA2', 7, 80);
 console.log(`Status de aprovação do aluno na turma presencial: ${turmaPresencial.aprovado()}`); 
